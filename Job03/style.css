@@ -1,0 +1,36 @@
+.section{
+    background-color: #88c1d0;
+    width: 40vw;
+    height: 250px;
+}
+.item {
+    flex: 1 1 200px;
+    height: 200px;
+    width:40vw;
+    background-color: #88c1d0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+@media screen and (max-width: 1599px) {
+    div{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+    }
+}
+.container{margin-top: 5px;}
+@media screen and (max-width: 767px){
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+}
